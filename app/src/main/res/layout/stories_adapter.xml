@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_parent"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_margin="10dp"
+    android:background="?attr/primaryCardBackgroundColor"
+    android:orientation="horizontal">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:cardCornerRadius="@dimen/card_radius"
+        app:cardPreventCornerOverlap="true">
+
+        <ImageView
+            android:id="@+id/item_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/colorAccent"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_book_cover" />
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/item_bookmark"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="end"
+        android:src="?attr/iconBookmark"
+        android:visibility="gone" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_toStartOf="@+id/item_bookmark"
+        android:layout_toLeftOf="@+id/item_bookmark"
+        android:layout_toEndOf="@+id/cardView"
+        android:layout_toRightOf="@+id/cardView"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="@string/story_name"
+            android:textColor="?attr/primaryTitleColor"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/item_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/story_description"
+            android:textColor="?attr/primaryDescriptionColor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/item_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin"
+            android:alpha="50"
+            android:text="@string/story_date"
+            android:textColor="?attr/primaryDateColor"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Light/Dark Theme</string>
+    <string name="action_night_mode">Night Mode</string>
+    <string name="bookmark">Bookmark on position %d</string>
+    <string name="str_item_title">Om Telolet Om</string>
+    <string name="str_item_description">Fenomena om telolet om yang mendunia</string>
+    <string name="story_name">Tour Your City BookFair Today</string>
+    <string name="story_description">Borrow a book to get started!</string>
+    <string name="story_date">23 Mar, 10:17 AM</string>
+</resources>

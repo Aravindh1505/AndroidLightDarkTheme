@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Light Color-->
+    <color name="colorPrimary">#ff885d</color>
+    <color name="colorPrimaryDark">#FB7747</color>
+    <color name="colorAccent">#ff885d</color>
+    <color name="primaryTitleColor">#5084c6</color>
+    <color name="primaryDescriptionColor">#634e55</color>
+    <color name="primaryDateColor">#634e55</color>
+    <color name="primaryBackgroundColor">#FFFFFF</color>
+    <color name="primaryCardBackgroundColor">#FFFFFF</color>
+
+    <!--Night Color-->
+    <color name="colorPrimaryNight">#212121</color>
+    <color name="colorPrimaryDarkNight">#000000</color>
+    <color name="colorAccentNight">#f44336</color>
+    <color name="primaryTitleColorNight">#FFFFFF</color>
+    <color name="primaryDescriptionColorNight">#B3FFFFFF</color>
+    <color name="primaryDateColorNight">#B3FFFFFF</color>
+    <color name="primaryBackgroundColorNight">#303030</color>
+    <color name="primaryCardBackgroundColorNight">#303030</color>
+</resources>
